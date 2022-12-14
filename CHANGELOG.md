@@ -1,3 +1,3 @@
 ## 1.0.0
 
-- Initial version.
+- Initial version. to check the useless resource,like images
