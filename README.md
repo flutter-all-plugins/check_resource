@@ -5,10 +5,10 @@ unit test in `test/`.
 
 > 执行检测工程目录下的R.dart的资源文件相关的文件是否被引用，最后会显示出没被引用的数据
 
-## 执行如下命令:
+## 在根目录下执行如下命令:
 
 ```shellscript
-sh scripts/lint_resource.sh lib/res/r.dart lib
+flutter pub run check_res:check_res lib/res/r.dart lib
 ```
 
 ## 执行结果如下:
