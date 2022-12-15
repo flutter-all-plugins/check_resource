@@ -1,5 +1,5 @@
 name: check_res
-description: A console plugini for user to check the useless resource.
+description: A console plugin for user to check the useless resource.
 version: 1.0.1
 homepage: https://github.com/flutter-all-plugins/check_resource.git
 

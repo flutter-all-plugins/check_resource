@@ -4,16 +4,8 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7e65a1af-70fa-46ca-8666-6954f854d888" name="Changes" comment="feat:add the comment and commit the capture and readme">
-      <change afterPath="$PROJECT_DIR$/bin/check_all.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/check_string.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imgs/capture_string.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/check_string.dart" afterDir="false" />
+    <list default="true" id="7e65a1af-70fa-46ca-8666-6954f854d888" name="Changes" comment="feat:support the check string resources">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/CHANGELOG.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/check_res.dart" beforeDir="false" afterPath="$PROJECT_DIR$/bin/check_res.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/check_res.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/check_res.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,6 +26,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/pubspec.yaml" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -51,6 +46,9 @@
     <property name="cidr.known.project.marker" value="true" />
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
@@ -107,7 +105,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671015437589</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="feat:support the check string resources">
+      <created>1671071654026</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1671071654026</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -123,6 +128,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat:add the comment and commit the capture and readme" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat:add the comment and commit the capture and readme" />
+    <MESSAGE value="feat:support the check string resources" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat:support the check string resources" />
   </component>
 </project>
