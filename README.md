@@ -1,17 +1,27 @@
 A sample command-line application with an entrypoint in `bin/`, library code in `lib/`, and example
 unit test in `test/`.
+目前检测应用的结构主要是根据现有公司的项目的结构,具体可以查看：
+[项目结构](https://github.com/fastcode555/Json2Dart_Null_Safety/tree/develop_database/example/lib/res)
+# 检测资源文件
 
-# 检测索引R.dart文件
+- 检测图片资源文件R.dart
+    - flutter pub run check_res:check_res lib/res/r.dart lib
+- 检测文字文件 string.dart
+    - flutter pub run check_res:check_string lib/res/string.dart lib
+- 检测所有
+    - flutter pub run check_res:check_all lib/res/r.dart lib/res/string.dart lib
+
+## 检测索引R.dart文件
 
 > 执行检测工程目录下的R.dart的资源文件相关的文件是否被引用，最后会显示出没被引用的数据
 
-## 在根目录下执行如下命令:
+### 在根目录下执行如下命令:
 
 ```shellscript
 flutter pub run check_res:check_res lib/res/r.dart lib
 ```
 
-## 执行结果如下:
+### 执行结果如下:
 
 ```
 infinity@infinitydeMBP-2 flutter_yongwen % sh scripts/lint_resource.sh lib/res/r.dart lib
@@ -60,5 +70,7 @@ lib/widgets/tree/tree_widget.dart:            widget.deep == 0 ? R.icRootFolder 
 5. icBook
 ```
 
-可以看到最后显示出没有被引用到的图片文件：
+### 可以看到最后显示出没有被引用到的图片文件：
 ![Alt](imgs/capture.png)
+
+![Alt](imgs/capture_string.png)

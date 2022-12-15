@@ -5,7 +5,7 @@ import 'package:process_run/shell.dart';
 
 final RegExp _variableRegex = RegExp(r'(?<=String ).*?(?= =)');
 
-void checkResource(String rFilePath, String dirPath) async {
+Future<String> checkResource(String rFilePath, String dirPath) async {
   File file = File(rFilePath);
 
   String content = await file.readAsString();
@@ -19,9 +19,9 @@ void checkResource(String rFilePath, String dirPath) async {
 
   Shell shell = Shell();
   StringBuffer buffer = StringBuffer();
-  buffer.write("\n----------🐝🐝🐝Cannot find reference------------\n");
+  buffer.write("\n----------🐝🐝🐝Cannot find image reference------------\n");
   int count = 0;
-
+  print("✈️✈️✈️开始检测图片资源==================================");
   for (String name in matchImageString) {
     String script = 'grep -r R.$name $dirPath';
     try {
@@ -35,5 +35,5 @@ void checkResource(String rFilePath, String dirPath) async {
       buffer.write("$count. $name\n");
     }
   }
-  print(buffer.toString());
+  return buffer.toString();
 }
