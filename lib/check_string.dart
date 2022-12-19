@@ -19,7 +19,6 @@ Future<String> checkString(String rFilePath, String dirPath) async {
   Shell shell = Shell();
   StringBuffer buffer = StringBuffer();
   buffer.write("\n----------🐝🐝🐝Cannot find string reference------------\n");
-  int count = 0;
   print("✈️✈️✈️开始检测字符串资源资源的检测==================================");
   List<String> keys = [];
   for (String name in matchImageString) {

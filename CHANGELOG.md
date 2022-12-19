@@ -1,3 +1,7 @@
+## 1.0.2
+
+- Fixed the bugs
+
 ## 1.0.1
 
 - Support to check string resources
