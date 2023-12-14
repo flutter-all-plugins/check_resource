@@ -23,6 +23,7 @@ Future<String> checkResource(String rFilePath, String dirPath) async {
   int count = 0;
   print("✈️✈️✈️开始检测图片资源==================================");
   for (String name in matchImageString) {
+    if (name.startsWith("_")) continue;
     String script = 'grep -r R.$name $dirPath';
     try {
       var result = await shell.run(script);

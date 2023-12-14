@@ -1,10 +1,10 @@
 name: check_res
 description: A console plugin for user to check the useless resource，which contains images，string resources
-version: 1.0.2
+version: 1.0.3
 homepage: https://github.com/flutter-all-plugins/check_resource.git
 
 environment:
-  sdk: '>=2.17.6 <3.0.0'
+  sdk: '>=2.17.6 <4.0.0'
 
 dependencies:
   process_run: ^0.12.3+2
